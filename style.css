@@ -1,0 +1,97 @@
+/* page styles */
+body {
+	background-color: #000000; /* black background */
+	color: #8EE4AF; /* text color */
+	font-family: 'Montserrat', sans-serif; /* Spotify font */
+	font-size: 24px; /* larger font size */
+}
+
+/* container styles */
+.container {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-between;
+	margin: auto;
+	max-width: 960px;
+	padding: 50px;
+    height:500px;
+}
+
+/* portfolio header styles */
+.portfolio-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	font-size: 48px;
+	font-weight: bold;
+	margin: 10 auto;
+	max-width: 800px;
+	text-align: center;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: right;
+  
+}
+.subtle {
+	color: #8EE4AF;
+	font-size: 45px; /* updated font size */
+	margin-right: 10px;
+	margin-left: 0; /* added margin-left property */
+}
+
+.main {
+	color: #FFFFFF;
+	font-size: 108px;
+}
+
+/* options styles */
+.options {
+  display: flex;
+  flex-direction: row-reverse; /* change to row-reverse */
+  align-items: center; /* updated align-items property */
+}
+
+.option {
+  color: #8EE4AF;
+  margin-right: 10px; /* update margin-right property */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.options a {
+  text-decoration: none;
+}
+
+.option:hover {
+	color: #fff;
+	font-size: 16.78px;
+}
+
+
+/* add margin top only to the portfolio header */
+.portfolio-header {
+	margin-top: 100px;
+}
+
+/* social media icons */
+.social-media {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.social-media a {
+	margin-right: 20px;
+	color: #8EE4
+}
+
