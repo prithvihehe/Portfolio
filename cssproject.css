@@ -1,0 +1,75 @@
+body {
+	background-color: #000000; /* black background */
+	color: #8EE4AF; /* text color */
+	font-family: 'Montserrat', sans-serif; /* Spotify font */
+	font-size: 24px; /* larger font size */
+}
+.options {
+  display: flex;
+  flex-direction: row-reverse; /* change to row-reverse */
+  align-items: center; /* updated align-items property */
+}
+
+.option {
+  color: #8EE4AF;
+  margin-right: 10px; /* update margin-right property */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.options a {
+  text-decoration: none;
+}
+
+.option:hover {
+	color: #fff;
+	font-size: 16.78px;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.card {
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  margin: 0 10px;
+  background-color: #212121;
+}
+
+.main-card {
+  margin: 0;
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  font-size: 36px;
+  color: #8EE4AF;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #fff;
+}
